@@ -91,8 +91,39 @@
         <h3>Fresh Coffee Beans</h3>
         <a href="Read More">Read More</a>
        <h2>Resevation Form</h2>
-       </div>
-       <hr>
+    </div>
+    <hr>
+    <div id="Reservation">
+        <label for="full-name">Full Name</label>
+        <input type="text" placeholder="Last Name, First Name" name="name" size="25" id="full-name"/>
+        <label for="email">Email Adress</label>
+        <input type="text" placeholder="mail@mail.com" name="email" size="25" id="email"/>
+        <label for="number">Phone Number</label>
+        <input type="text" placeholder="(Area Code) 1234567890" name="number" size="25" id="number"/>
+         <label>Reservation Details</label>
+         <select name="table" id="table">
+         <option value="1 person table">1 person table</option>
+         <option value="2 person table">2 person table</option>
+         <option value="3 person table">3 person table</option>
+         </select>
+         <label for="Date">Reservation Date</label>
+         <input type="date" name="date" id="date">
+         <input type="radio" name="visit" id="morning" value="morning">
+         <label for="morning">Morning</label>
+         <input type="radio" name="visit" id="afternoon" value="afternoon">
+         <label for="afternoon">Afternoon</label>
+         <p><label for="Additional Request">Additional Request</label><textarea id="" name="Additional Request" rows="4" cols="50"></textarea></p>
+         <h3>Payment</h3>
+         <p>Payment Accepted Cards</p>
+         <p>cards<br>
+         <label for="card-name">Credit Card Name</label>
+         <input type="text" placeholder="John Doe" name="card-name" size="25" id="card-name"/>
+         <label for="card-number">Credit Card Number</label>
+        <input type="text" placeholder="1234567890" name="card-number" size="25" id="card-number"/>
+        <input type="checkbox" name="agreed" id="agree" value="agree">
+         <label for="agreed">I Agree Lorem ipsum dolor sit amet.</label>
+         <button>Send</button></p> 
+    </div>
     
 </body>
 </html>
