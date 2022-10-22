@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none; 
+   color: #312a26;
+   background-size: cover; 
+}
+
+/*All Headings tags*/
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+label,
+span,
+a {
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a:hover{
+   color: gray;
+}
+body{
+   width: 100%;
+}
+
+/* Header Area */
+
+.nav {
+overflow: auto;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+align-items: center;
+}
+.nav h1 {
+   width: 50%;
+   float: left;
+}
+.nav ul {
+   width: 50%;
+   float: left;
+   text-align: right;
+   padding-top: 10px;
+}
+
+.nav a {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   }
+
+.nav li {
+   display: inline-block;
+}
+/* Banner Area */
+
+.banner {
+   height: 650px;
+   background-color: khaki;
+   background-image: url(../Images/atf-image.jpg); 
+   background-size: cover;
+   background-position: center ;  
+   margin-bottom: 5%;
+}
+
+.banner-text {
+   width: 30%;
+   position: relative;
+   top: 20%;
+   left: 7.5%;
+}
+.banner h2 {
+   text-transform: uppercase;
+   font-size: 75px;
+   line-height: 75px;
+}
+.banner a {
+   padding: 15px 20px;
+   background-color: #312a26;
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.banner span {
+   color: green;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.banner p {
+   font-style: italic;
+   margin-bottom: 15px;
+}
+/* Ads Area */
+.container {
+  display: flex;
+   justify-content: center;
+   margin-top: 0%;
+   flex-wrap: wrap;
+}
+.box1 {
+  float: left;
+   width: 530px;
+   padding: 3px;   
+}
+.inner-box1 {
+   height:300px ;
+   background-size: cover; 
+}
+.image2 {
+   background-image: url(../Images/merchandise1.jpg);
+}
+.image3 {
+   background-image: url(../Images/merchandise2.jpg);
+}
+.box1 a, h3 {
+   margin-left: 50px;
+   color: white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   
+}
+.box1 a{
+   margin-top: 40px;
+   color: white;
+   margin-left: 50px;
+   font-size: 15px;
+   text-decoration: none; 
+   font-family: 'Courier New', Courier, monospace;
+}
+/* Available Products */
+.text {
+   text-align: center;
+   margin-top: 20px;
+}
+.h2-tag h2 {
+   text-align: center; 
+   color: black;
+}
+.text p {
+   color: salmon;
+   font-family: cursive; 
+   text-align: center;
+} 
+.box2 p {
+   color: khaki;
+}
