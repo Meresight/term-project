@@ -33,7 +33,6 @@ body{
 }
 
 /* Header Area */
-
 .nav {
 overflow: auto;
 width: 85%;
@@ -108,13 +107,15 @@ align-items: center;
    flex-wrap: wrap;
 }
 .box1 {
-  float: left;
+   float: left;
    width: 530px;
    padding: 3px;   
+   
 }
 .inner-box1 {
    height:300px ;
    background-size: cover; 
+   border: solid 20px #513B1C;
 }
 .image2 {
    background-image: url(../Images/merchandise1.jpg);
@@ -155,11 +156,18 @@ align-items: center;
    color: khaki;
 }
 .container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
     overflow: auto;
 }
 .product{
+    margin: 30px;
+    width: 270px;
+    transition: 0.3s;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
@@ -172,4 +180,176 @@ align-items: center;
 .desc{
     padding: 15px;
     text-align: center;
+}
+.product p{
+    padding: 10px;
+}
+.product:hover{
+    transform: scale(1.1);
+}
+/*25% Discount Sale*/
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.box3{
+    width: 80vw;
+}
+.inner-box3{
+    height: 450px;
+    margin-bottom: 15px;
+    border: 35px solid;
+    border-image-slice: 100;
+}
+.image12{
+    background-image: url('../images/banner.jpg');
+}
+.box3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.box3 h2{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: tahoma;
+    margin-top: 20px;
+}
+.box3 a{
+    color: black;
+    padding: 15px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 45%;
+}
+/*Discounted Products*/
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.child{
+    margin: 30px;
+    width: 270px;
+    transition: 0.3s;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.child img{
+    width: 100%;
+    height: auto;
+}
+.descript{
+     padding: 15px;
+    text-align: center;
+}
+.inner-child{
+    background-color: black;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border: 20px solid;
+    border-image-slice: 100;
+    border-image-repeat: round;
+}
+.child p{
+    padding: 10px;
+}
+.child:hover{
+    transform: scale(1.1);
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    opacity: 0.7;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.dptext{
+    color: darkgoldenrod;
+    
+    }
+.h2-tag1{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Ultra', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #513B1C;
+    text-decoration: underline;
+}
+/*Ads Section 2*/
+.container4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.box4{
+    margin: 30px;
+    width: 40vw;
+    transition: 0.3s;
+}
+.inner-box4{
+    background-color: white;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border: 25px solid;
+    border-image-slice: 100;
+    border-image-repeat: round;
+}
+.image13{
+    background-image: url('../images/merchandise3.jpg');
+}
+.image14{
+    background-image: url('../images/merchandise4.jpg');
+}
+.image15{
+    background-image: url('../images/merchandise5.jpg');
+}
+.image16{
+    background-image: url('../images/merchandise6.jpg');
+}
+.box4 p{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+.box4 a{
+    color: black;
+    margin-top: 40px;
+    padding: 15px 15px;
+    margin-left: 47px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: white;
+}
+.box4:hover{
+    transform: scaley(1.07);
 }
